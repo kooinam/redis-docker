@@ -12,6 +12,5 @@ node {
 
         stage "publish"
         app.push 'latest'
-        app.push "${commit_id}"
     }
 }
